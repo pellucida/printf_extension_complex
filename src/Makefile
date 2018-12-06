@@ -1,5 +1,9 @@
 
-CFLAGS	+= -std=c89
+CFLAGS	+= -std=c99
+
+.c.o:   
+	$(CC) -c $(CFLAGS) -o $@ $<
+
 
 OBJ	= printf-extension-complex.o test-c99-complex.o
 

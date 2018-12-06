@@ -1,7 +1,7 @@
 # include	<complex.h>
 # include	<stdio.h>
 
-main() {
+int main() {
 
 	complex	dz			= 1.234502843923442473297429E45 + 5.43212324324243034*I;
 	float	complex	fz		= 8888 + 7777*I;

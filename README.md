@@ -7,7 +7,7 @@
 
  eg      (1.000,2.000)   = 1.0 + 2.9*I
 
-    %[width][.preC]K        - uses %g format  
+    %[width][.prec]K        - uses %g format  
     %[width][.prec]k        - uses %f format
 
       width   - total width for the whole complex number
